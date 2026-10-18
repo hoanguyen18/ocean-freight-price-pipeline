@@ -1,5 +1,7 @@
 # Ocean Freight Price Pipeline with dbt + DuckDB
 
+![Ocean freight price pipeline](images/cover.png)
+
 A data pipeline that turns raw shipping contracts, charges in many currencies, and exchange rates into clean USD price aggregates per shipping lane, with incremental loading and a built-in data quality flag.
 
 **Tech stack:** Python · DuckDB · dbt · SQL
