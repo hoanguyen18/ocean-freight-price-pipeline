@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+  - name: freight
+   # database: dev.duckdb
+    schema: raw
+    tables:
+      - name: charges_1
+      - name: charges_2
+      - name: charges_3
+      - name: exchange_rates
+      - name: regions
+      - name: ports
+      - name: datapoints_1
+        columns: 
+          - name: d_id
+            description: This is a unique ID for a datapoint (identifies a shipping contract)
+            tests:
+              - unique
+      - name: datapoints_2
+        columns: 
+          - name: d_id
+            description: This is a unique ID for a datapoint (identifies a shipping contract)
+            tests:
+              - unique
+      - name: datapoints_3
+        columns: 
+          - name: d_id
+            description: This is a unique ID for a datapoint (identifies a shipping contract)
+            tests:
+              - unique

@@ -1,0 +1,52 @@
+# DBT
+target/
+dbt_packages/
+logs/
+.user.yml
+
+
+# Config files
+conf/*
+!conf/.gitkeep
+
+
+# Python venv
+.dbtenv/
+
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script fro
+
+# Local database
+*.duckdb
+*.wal
